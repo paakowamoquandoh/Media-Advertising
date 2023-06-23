@@ -1,5 +1,6 @@
 import { Component } from "react";
-import {Link} from "react-router-dom";
+import { Home } from 'react-feather';
+import { menuList } from "./navLinks";
 import "./nav.css";
 
 class NavBar extends Component{
@@ -9,9 +10,15 @@ class NavBar extends Component{
                 <h1 className="navLogo">Media<i>Rebrand</i></h1>
 
                 <ul className="navMenu">
-                    <li>
-                        <a><i class="fa-sharp fa-solid fa-house"></i>Home</a>
-                    </li>
+                    {menuList.map((item,index) => {
+                        return(
+                            <li key={index} className={item.cName}>
+                                <a href={item.url}>
+                                    {item.title}
+                                </a>
+                            </li>
+                        )
+                    })}
                 </ul>
             </nav>
         )
