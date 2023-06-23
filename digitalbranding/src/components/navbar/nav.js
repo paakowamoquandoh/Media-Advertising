@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Home } from 'react-feather';
+// import { Home } from 'react-feather';
 import { menuList } from "./navLinks";
 import "./nav.css";
 
@@ -7,7 +7,7 @@ class NavBar extends Component{
     render(){
         return(
             <nav className="navItems">
-                <h1 className="navLogo">Media<i>Rebrand</i></h1>
+                <h1 className="navLogo">Media<i className="reColor">Rebrand</i></h1>
 
                 <ul className="navMenu">
                     {menuList.map((item,index) => {

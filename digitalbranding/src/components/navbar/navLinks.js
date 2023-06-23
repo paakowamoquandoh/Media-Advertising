@@ -2,31 +2,31 @@ export const menuList = [
     {
         title: "Home",
         url: "/",
-        cName: "navLinks",
+        cName: "navLinks"
         
     },
     {
         title: "Services",
         url: "/services",
-        cName: "navLinks",
+        cName: "navLinks"
         
     },
     {
         title: "Packages",
         url: "/packages",
-        cName: "navLinks",
+        cName: "navLinks"
         
     },
     {
         title: "Why Us?",
         url: "/whyus",
-        cName: "navLinks",
+        cName: "navLinks"
         
     },
     {
         title: "Contact Us",
         url: "/contactus",
-        cName: "navLinks",
+        cName: "navLinks"
         
     }
 ]
