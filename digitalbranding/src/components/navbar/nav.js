@@ -9,10 +9,13 @@ class NavBar extends Component{
 
                 <ul className="navMenu">
                     <li>
-                        <link>Home</link>
+                        <Link><i class="fa-sharp fa-solid fa-house"></i>Home</Link>
                     </li>
                 </ul>
             </nav>
         )
     }
 }
+
+
+export default NavBar;
