@@ -11,6 +11,11 @@ nav{
     width: 90%;
     height: 80px;
     border-radius: 12px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99999;
 }
 
 a{
@@ -37,6 +42,7 @@ a:hover{
 
 .reColor{
     color: var(--yellowish);
+    font-family: 'Epilogue', sans-serif;
 }
 
 .navMenu{
@@ -47,7 +53,16 @@ a:hover{
     align-items: center;
 }
 
+.menuIcon{
+    display: none;
+}
+
 @media screen and (max-width: 850px){
+    .menuIcon{
+        display: block;
+        font-size: 1.5rem;
+        color: var(--yellowish);
+    }
     .navItems{
         z-index: 9999;
     }
