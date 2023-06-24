@@ -1,5 +1,6 @@
 import { Component } from "react";
-import { Menu, XCircle } from 'react-feather';
+import { Link } from "react-router-dom";
+import { Menu, XCircle, Instagram, Facebook, Twitter } from 'react-feather';
 import { menuList } from "./navLinks";
 import "./nav.css";
 
@@ -34,11 +35,17 @@ class NavBar extends Component {
           {menuList.map((item, index) => {
             return (
               <li key={index} className={item.cName}>
-                <a href={item.url}>{item.title}</a>
+                <Link to={item.url}>{item.title}</Link>
               </li>
             );
           })}
+          <ul className="socials">
+            <li><Instagram/></li>
+            <li><Facebook/></li>
+            <li><Twitter/></li>
+          </ul>
         </ul>
+
       </nav>
     );
   }

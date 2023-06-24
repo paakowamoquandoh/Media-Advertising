@@ -18,16 +18,20 @@ nav{
     z-index: 99999;
 }
 
-a{
-    text-decoration: none;
-    color: var(--blackColor);
+.navLinks{
+    
     font-size: 1.2rem;
     font-weight: 600;
     padding: 0.7rem 1rem;
     white-space: nowrap;
 }
 
-a:hover{
+.navLinks a{
+    text-decoration: none;
+    color: var(--yellowish);
+}
+
+.navLinks:hover{
     background-color: var(--mainRed);
     color: var(--whiteColor);
     border-radius: 4px;
@@ -56,6 +60,24 @@ a:hover{
 .menuIcon{
     display: none;
 }
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.socials li{
+    list-style: none;
+    margin: 0px 6px;
+    color: var(--blackColor);  
+    
+}
+
+.socials svg {
+    fill: var(--yellowish);
+    stroke: 15px;
+  }
 
 @media screen and (max-width: 850px){
     .menuIcon{
@@ -92,7 +114,7 @@ a:hover{
         z-index: -1;
     }
 
-    li{
+    .navLinks{
         
         display: block;
         width: 100%;
@@ -101,11 +123,16 @@ a:hover{
         text-align: center;
     }
 
-    li a{
-        color: var(--mainRed);
+    .socials{
+        text-align: center;
+        margin-left: -45px;                
     }
 
-    li a:hover{
+    .navLinks a{
+        color: var(--yellowish);
+    }
+
+    .navLinks a:hover{
         color: var(--yellowish);
         background: none;
     }
