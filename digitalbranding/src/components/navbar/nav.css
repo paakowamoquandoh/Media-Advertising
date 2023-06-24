@@ -3,6 +3,7 @@ nav{
     margin-right: auto;
 }
 .navItems{
+    background-color: var(--whiteColor);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,12 +88,13 @@ nav{
     }
     .navItems{
         z-index: 9999;
+        background-color: var(--whiteColor);
     }
     .navMenu{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        background: var(--whiteColor);
+        background: var(--greyColorLight);
         width: 100%;
         height: auto;
         position: absolute;
