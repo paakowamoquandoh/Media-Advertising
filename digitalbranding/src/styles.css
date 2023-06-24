@@ -8,3 +8,7 @@
     --blackColor: #111;
     --yellowish: rgb(251,189,55);
 }
+
+.App{
+    align-items: center;
+}
