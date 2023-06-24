@@ -32,6 +32,12 @@ nav{
     color: var(--yellowish);
 }
 
+.activeItem{
+    background-color: var(--mainRed);
+    color: var(--whiteColor);
+    border-radius: 4px;
+}
+
 .navLinks:hover{
     background-color: var(--mainRed);
     color: var(--whiteColor);
@@ -88,6 +94,7 @@ nav{
     }
     .navItems{
         z-index: 9999;
+        width: 85%;
         background-color: var(--whiteColor);
     }
     .navMenu{
