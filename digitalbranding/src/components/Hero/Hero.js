@@ -6,11 +6,11 @@ function HeroSection(props) {
         <div className={props.className}>
            <img alt="heroImage" src={props.heroImage}/>
 
-           <div className="heroText">
+           <div className={props.textClass}>
             <h1>{props.title}</h1>
             <p>{props.text }</p>
-            <a href="/">
-            Request a Quote
+            <a href={props.url} className={props.btnClass}>
+            {props.btnText}
             </a>
            </div>
         </div>
@@ -18,13 +18,5 @@ function HeroSection(props) {
     )    
 }
 
-
-{/* <div className="heroText">
-            <h1></h1>
-            <p></p>
-            <a href="/">
-            Request a Quote
-            </a>
-           </div> */}
 
 export default HeroSection;
