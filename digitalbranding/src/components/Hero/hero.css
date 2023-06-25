@@ -4,11 +4,17 @@
     position: relative;
 }
 
+.otherHeroes{
+    width: 100%;
+    height: 76vh;
+    position: relative;
+}
+
 img{
     width: 100%;
-    height: 90vh;
+    height: 100%;
     object-fit: cover;
-    opacity: 0.82;
+    opacity: 0.92;
 }
 
 .heroText{

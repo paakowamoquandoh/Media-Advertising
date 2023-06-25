@@ -1,14 +1,15 @@
 import NavBar from "../components/navbar/nav";
 import Hero from "../components/Hero/Hero";
+import ServeImg from "../media/images/media6.jpg";
 
 function Services() {
     return(
         <>
         <NavBar/>
         <Hero 
-        className="homeHero"
+        className="otherHeroes"
         textClass="heroText"
-        heroImage="https://images.pexels.com/photos/8549940/pexels-photo-8549940.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        heroImage={ServeImg}
         title="CREATIVE DIGITAL AGENCY"
         text="Focused on Growing Brands Online"
         btnText="Speak to Us"

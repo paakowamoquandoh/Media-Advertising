@@ -1,14 +1,15 @@
 import NavBar from "../components/navbar/nav";
 import Hero from "../components/Hero/Hero";
+import ContactImg from "../media/images/media4.jpg";
 
 function ContactUs() {
     return(
         <>
         <NavBar/>
         <Hero 
-        className="homeHero"
+        className="otherHeroes"
         textClass="heroText"
-        heroImage="https://images.pexels.com/photos/7567443/pexels-photo-7567443.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        heroImage={ContactImg}
         title="We value your feedback and inquiries"
         text="Our dedicated team is here to assist you."
         btnText="Contact Us"
