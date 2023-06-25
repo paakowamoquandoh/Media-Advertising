@@ -145,5 +145,10 @@ nav{
         color: var(--yellowish);
         background: none;
     }
+
+    .activeItem{
+        background-color: transparent;
+        color: transparent;
+    }
     
 }

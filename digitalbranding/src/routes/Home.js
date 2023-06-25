@@ -1,6 +1,7 @@
 import NavBar from "../components/navbar/nav";
 import Hero from "../components/Hero/Hero";
 import HomeImg from "../media/images/media1.jpg";
+import FeaturesSection from "../components/SectionOne/Section";
 
 
 function HomePage() {
@@ -17,6 +18,7 @@ function HomePage() {
         btnClass="homeBtn"
         url="/"
         />
+        <FeaturesSection/>
         </>
     )    
 }
