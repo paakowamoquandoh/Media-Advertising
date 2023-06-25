@@ -9,9 +9,9 @@ function WhyUs() {
         className="homeHero"
         textClass="heroText"
         heroImage="https://images.pexels.com/photos/7710082/pexels-photo-7710082.jpeg?auto=compress&cs=tinysrgb&w=1600"
-        title="Transform your Brand"
-        text="Choose our revolutionary Digital experiences."
-        btnText="Request a Quote"
+        title="Results-Driven Digital Marketing"
+        text="Multi-channel marketing approach focused on increasing visibility and conversions"
+        btnText="View Services"
         btnClass="homeBtn"
         url="/"
         />

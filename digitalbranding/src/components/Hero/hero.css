@@ -21,6 +21,7 @@ img{
 }
 
 .heroText h1{
+    text-transform: uppercase;
     font-size: 3rem;
     font-weight: 800;
     background-color: var(--mainRed);
@@ -29,6 +30,7 @@ img{
 }
 
 .heroText p{
+    text-transform: capitalize;
     font-size: 1.4rem;
     color: var(--blueColor);
     font-weight: bold;
@@ -37,13 +39,13 @@ img{
 
 .heroText .homeBtn{
     text-decoration: none;
-    background: var(--whiteColor);
+    background: teal;
     padding: 1rem 2rem;
     border-radius: 6px;
     font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 2px;
-    color: var(--mainRed);
+    color: var(--whiteColor);
 }
 
 @media screen and (max-width: 550px){

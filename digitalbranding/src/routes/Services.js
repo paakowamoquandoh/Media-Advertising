@@ -8,10 +8,10 @@ function Services() {
         <Hero 
         className="homeHero"
         textClass="heroText"
-        heroImage="https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=1600"
-        title="Transform your Brand"
-        text="Choose our revolutionary Digital experiences."
-        btnText="Request a Quote"
+        heroImage="https://images.pexels.com/photos/8549940/pexels-photo-8549940.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        title="CREATIVE DIGITAL AGENCY"
+        text="Focused on Growing Brands Online"
+        btnText="Speak to Us"
         btnClass="homeBtn"
         url="/"
         />

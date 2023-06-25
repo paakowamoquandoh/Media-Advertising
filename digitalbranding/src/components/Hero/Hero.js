@@ -8,7 +8,7 @@ function HeroSection(props) {
 
            <div className={props.textClass}>
             <h1>{props.title}</h1>
-            <p>{props.text }</p>
+            <p>{props.text}</p>
             <a href={props.url} className={props.btnClass}>
             {props.btnText}
             </a>
