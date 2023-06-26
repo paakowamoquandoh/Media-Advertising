@@ -3,6 +3,7 @@ import NavBar from "../components/navbar/nav";
 import Hero from "../components/Hero/Hero";
 import FeaturesSection from "../components/SectionOne/Section";
 import WeOffer from "../components/SectionTwo/ServicesSec";
+import Footer from "../components/footer/Footer";
 
 
 function HomePage() {
@@ -21,6 +22,7 @@ function HomePage() {
         />
         <FeaturesSection/>
         <WeOffer/>
+        <Footer/>
         </>
     )    
 }

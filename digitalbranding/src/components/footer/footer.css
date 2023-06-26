@@ -1,0 +1,8 @@
+.reColor{
+    color: var(--yellowish);
+    font-family: 'Epilogue', sans-serif;
+}
+
+.bottom h4{
+    color: var(--darkColor);
+}

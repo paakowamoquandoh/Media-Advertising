@@ -1,4 +1,3 @@
-import WeOffer from "./ServicesSec";
 import "./servicesSec.css";
 
 
