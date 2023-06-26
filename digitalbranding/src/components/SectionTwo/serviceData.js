@@ -4,7 +4,7 @@ import "./servicesSec.css";
 
 function OffersData(props){
     return(
-        <div className="offerCard">
+        <div className="dataCard">
             <div className="offerImage">
                 <img src={props.image} alt="offerImg" />
             </div>

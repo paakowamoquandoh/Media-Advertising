@@ -30,6 +30,10 @@ function WeOffer(){
                 heading="Media Buy"
                 description="Reach your audience in the right places at the right frequency at the right price. From Traditional media to digital media or an integrated mix."
                 />
+                           
+            </div>
+            <div className="offerCard">
+               
                 <OffersData
                 image={offImg4}
                 heading="General Marketing Support"
@@ -45,6 +49,10 @@ function WeOffer(){
                 heading="Digital Marketing Campaigns"
                 description="Optimise your online using all types of digital media not limited to websites, banners and search engine"
                 />
+               
+            </div>
+            <div className="offerCard">
+                
                 <OffersData
                 image={offImg1}
                 heading="Video Advertising and Production"
