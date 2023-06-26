@@ -1,6 +1,7 @@
 nav{
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Poppins', sans-serif;
 }
 .navItems{
     background-color: var(--whiteColor);
@@ -22,7 +23,7 @@ nav{
 .navLinks{
     
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 500;
     padding: 0.7rem 1rem;
     white-space: nowrap;
 }
