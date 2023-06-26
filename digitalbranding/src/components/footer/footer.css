@@ -3,6 +3,34 @@
     font-family: 'Epilogue', sans-serif;
 }
 
-.bottom h4{
-    color: var(--darkColor);
+.footer{
+    padding: 4rem 6rem;
+    background-color: var(--blackColor);
 }
+
+.topside{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.topside h1{
+    color: var(--whiteColor);
+}
+
+.topside p{
+    color: var(--whiteColor);
+}
+
+.topside a{
+    color: var(--whiteColor);
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+/* .topside a svg {
+    fill: var(--yellowish);
+    stroke: 15px;
+  } */
