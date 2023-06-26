@@ -1,7 +1,8 @@
+import HomeImg from "../media/images/media1.jpg";
 import NavBar from "../components/navbar/nav";
 import Hero from "../components/Hero/Hero";
-import HomeImg from "../media/images/media1.jpg";
 import FeaturesSection from "../components/SectionOne/Section";
+import WeOffer from "../components/SectionTwo/ServicesSec";
 
 
 function HomePage() {
@@ -19,6 +20,7 @@ function HomePage() {
         url="/"
         />
         <FeaturesSection/>
+        <WeOffer/>
         </>
     )    
 }

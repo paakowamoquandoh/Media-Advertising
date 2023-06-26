@@ -12,7 +12,7 @@ class FeaturesData extends Component{
             <div className={this.props.className}>
                 <div className="featText">
                     <h2>{this.props.heading}</h2>
-                    <p>{this.props.description}</p><hr/>
+                    <p>{this.props.description}</p>
                     <a href="" className="featBtn">{this.props.button}</a>
                 </div>
                 <div className="featImage">
