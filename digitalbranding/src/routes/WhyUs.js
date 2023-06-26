@@ -1,5 +1,6 @@
 import NavBar from "../components/navbar/nav";
 import Hero from "../components/Hero/Hero";
+import Footer from "../components/footer/Footer";
 import WhyImg from "../media/images/media5.jpg";
 
 function WhyUs() {
@@ -16,6 +17,7 @@ function WhyUs() {
         btnClass="homeBtn"
         url="/"
         />
+        <Footer/>
         </>
     )    
 }

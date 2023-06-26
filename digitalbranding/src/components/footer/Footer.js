@@ -1,5 +1,5 @@
 import "./footer.css";
-import { Instagram, Facebook, Twitter } from 'react-feather';
+import { Instagram, Facebook, Twitter, Youtube } from 'react-feather';
 
 const Footer = () => {
     return(
@@ -13,6 +13,7 @@ const Footer = () => {
                     <a href="/"><Twitter/></a>
                     <a href="/"><Facebook/></a>
                     <a href="/"><Instagram/></a>
+                    <a href="/"><Youtube/></a>
                 </div>
             </div>
 

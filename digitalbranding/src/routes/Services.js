@@ -1,5 +1,7 @@
 import NavBar from "../components/navbar/nav";
 import Hero from "../components/Hero/Hero";
+import Footer from "../components/footer/Footer";
+import WeOffer from "../components/SectionTwo/ServicesSec";
 import ServeImg from "../media/images/media6.jpg";
 
 function Services() {
@@ -16,6 +18,8 @@ function Services() {
         btnClass="homeBtn"
         url="/"
         />
+        <WeOffer/>
+        <Footer/>
         </>
     )     
 }

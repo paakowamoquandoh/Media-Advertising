@@ -1,5 +1,6 @@
 import NavBar from "../components/navbar/nav";
 import Hero from "../components/Hero/Hero";
+import Footer from "../components/footer/Footer";
 import ContactImg from "../media/images/media4.jpg";
 
 function ContactUs() {
@@ -16,6 +17,7 @@ function ContactUs() {
         btnClass="homeBtn"
         url="/"
         />
+        <Footer/>
         </>
     )   
 }
