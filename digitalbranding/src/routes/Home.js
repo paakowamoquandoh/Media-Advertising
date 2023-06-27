@@ -2,7 +2,7 @@ import HomeImg from "../media/images/media1.jpg";
 import NavBar from "../components/navbar/nav";
 import Hero from "../components/Hero/Hero";
 import FeaturesSection from "../components/SectionOne/Section";
-import HomeOffers from "../components/SectionTwo/HomeSevice";
+import WeOffer from "../components/SectionTwo/ServicesSec";
 import Footer from "../components/footer/Footer";
 
 
@@ -21,7 +21,7 @@ function HomePage() {
         url="/"
         />
         <FeaturesSection/>
-        <HomeOffers/>
+        <WeOffer/>
         <Footer/>
         </>
     )    
