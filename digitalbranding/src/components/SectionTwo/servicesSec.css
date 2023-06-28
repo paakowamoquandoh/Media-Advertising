@@ -1,12 +1,13 @@
 .offers{
     background-color: var(--darkBlue);
-    font-family: 'Epilogue', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 2rem 2px;
 }
 
 .offers h1{
-   color: var(--whiteColor);
-   font-size: 3rem;
+   color: var(--yellowish);
+   font-size: 2.6rem;
+  
 }
 
 .offers p, h4{
